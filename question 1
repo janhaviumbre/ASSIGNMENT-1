@@ -1,0 +1,6 @@
+days=int(input('ENTER DAYS:'))
+year=days/365
+week=(days%365)/7
+print('YEAR:'year)
+print('WEEK:'week)
+print('DAYS:'days)
