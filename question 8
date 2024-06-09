@@ -1,0 +1,7 @@
+metals=['silver','gold']
+new=metals
+new.append('Platinum')
+new.append('Bronze')
+new.append('Iron')
+print(new)
+#o/p:-[
