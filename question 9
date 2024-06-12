@@ -1,0 +1,15 @@
+a) access data at key 'k'
+print(dict['k'])
+o/p=king
+
+b)add a new values 'z':'zebra'
+dict['z']='zebra'
+print(z)
+
+c)replace the content od 'd' as 'dog'
+dict['d']='dog'
+print(dict)
+
+d) find the length of this dictionary
+print(len(dict))
+o/p=6
