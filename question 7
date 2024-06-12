@@ -1,0 +1,10 @@
+a)print in sorted manner
+print(sortef(t))
+
+b)check 50 in tutple or not
+print (50 in t)
+o/p=false
+
+c) convert into set
+s=set(t)
+print(s)
