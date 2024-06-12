@@ -1,0 +1,39 @@
+a) extract only stringnvalues from the list
+x=[n for n in x if isinstance(n,str)]
+0/p=['Hello','World']
+
+b)create a new list with string in uppercase
+x=[n.upper() for n in x if isinstance(n,str)]
+o/p=['HELLO','WORLD']
+
+C)find the addition of integer values
+x=[n for n in x if not isintance(n,str)]
+print(sum(x))
+o/p=147.45
+
+d)check that the value 56 is present or not
+print(56 in x)
+o/p= false
+
+f)delete the string 'hello' from list
+x.remove('hello')
+print(x)
+o/p=[45,67,12,23.45,'world']
+
+g)insert element 36 at 5th position in list
+x.insert(5,36)
+print(x)
+o/p=[45,67,12,'hello',23,45,36,'world']
+
+h)count tottal elements in the list now
+print(len(x))
+o/p=7
+
+i)extract total elements in the list now
+print(x[2:6])
+o/p=[12,'hello',23.45,36]
+
+k)delete last element from list
+x.pop()
+print(x)
+o/p=[45,67,12,'hello',23.24,'world']
